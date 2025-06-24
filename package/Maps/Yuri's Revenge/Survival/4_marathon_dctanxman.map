@@ -3084,13 +3084,13 @@ Name=M3-Wave-4
 Group=-1
 
 [01000086]
-0=20,MTNK
+0=15,MTNK
 1=10,SREF
 Name=M3-Wave-5
 Group=-1
 
 [01000087]
-0=15,APOC
+0=12,APOC
 1=6,DCTANXMANSCHP
 2=3,ZEP
 Name=M3-Wave-6
@@ -3098,13 +3098,13 @@ Group=-1
 
 [01000088]
 0=5,TELE
-1=20,LTNK
+1=15,LTNK
 2=5,DISK
 Name=M3-Wave-7
 Group=-1
 
 [01000089]
-0=20,DCTANXMANAPOC
+0=15,DCTANXMANAPOC
 1=5,HTNK
 Name=M3-Wave-8
 Group=-1
@@ -8980,6 +8980,174 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
+[01001099]
+Max=5
+Full=yes
+Name=BattleFortressForUsM4A
+Group=-1
+House=<Player @ A>
+Script=01001100
+Whiner=no
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000011
+TechLevel=0
+Aggressive=no
+Autocreate=yes
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=3
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01001100]
+0=3,104
+1=8,0
+2=14,0
+3=43,0
+4=11,5
+Name=BFsM4A
+
+[01001101]
+0=3,105
+1=8,0
+2=14,0
+3=43,0
+4=11,5
+Name=BFsM4B
+
+[01001102]
+0=3,106
+1=8,0
+2=14,0
+3=43,0
+4=11,5
+Name=BFsM4C
+
+[01001103]
+0=3,107
+1=8,0
+2=14,0
+3=43,0
+4=11,5
+Name=BFsM4D
+
+[01001104]
+Max=5
+Full=yes
+Name=BattleFortressForUsM4B
+Group=-1
+House=<Player @ B>
+Script=01001101
+Whiner=no
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000011
+TechLevel=0
+Aggressive=no
+Autocreate=yes
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=3
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01001105]
+Max=5
+Full=yes
+Name=BattleFortressForUsM4C
+Group=-1
+House=<Player @ C>
+Script=01001102
+Whiner=no
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000011
+TechLevel=0
+Aggressive=no
+Autocreate=yes
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=3
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01001106]
+Max=5
+Full=yes
+Name=BattleFortressForUsM4D
+Group=-1
+House=<Player @ D>
+Script=01001103
+Whiner=no
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000011
+TechLevel=0
+Aggressive=no
+Autocreate=yes
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=3
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
 [105mm]
 Anim=INVISO
 
@@ -9340,7 +9508,7 @@ Anim=INVISO
 01000159=7,11,4,Destroy.The.Einstein.Laboratory,0,0,0,0,A,53,2,01001054,0,0,0,0,A,53,2,01001045,0,0,0,0,A,53,2,01001047,0,0,0,0,A,53,2,01001049,0,0,0,0,A,41,0,475,0,0,0,0,DJ,11,4,Before.Time.Has.Expired,0,0,0,0,A
 01000162=12,107,1,01000406,0,0,0,0,CM,107,1,01000406,0,0,0,0,CN,107,1,01000406,0,0,0,0,CO,107,1,01000406,0,0,0,0,CP,107,1,01000406,0,0,0,0,BS,107,1,01000406,0,0,0,0,BT,107,1,01000406,0,0,0,0,BU,107,1,01000406,0,0,0,0,BV,107,1,01000406,0,0,0,0,BW,107,1,01000406,0,0,0,0,BX,107,1,01000406,0,0,0,0,BY,107,1,01000406,0,0,0,0,BZ
 01000163=3,11,4,Destroy.The.Einstein.Laboratory,0,0,0,0,A,11,4,Before.Time.Has.Expired,0,0,0,0,A,55,0,5,0,0,0,0,DI
-01000165=10,107,1,01000272,0,0,0,0,CC,107,1,01000014,0,0,0,0,CD,107,1,01000015,0,0,0,0,CE,107,1,01000016,0,0,0,0,CF,53,2,01000230,0,0,0,0,A,121,0,4479,0,0,0,0,A,53,2,01000483,0,0,0,0,A,53,2,01000522,0,0,0,0,A,53,2,01000524,0,0,0,0,A,53,2,01000526,0,0,0,0,A
+01000165=10,80,1,01001099,0,0,0,0,CC,80,1,01001104,0,0,0,0,CD,80,1,01001105,0,0,0,0,CE,80,1,01001106,0,0,0,0,CF,53,2,01000230,0,0,0,0,A,121,0,4479,0,0,0,0,A,53,2,01000483,0,0,0,0,A,53,2,01000522,0,0,0,0,A,53,2,01000524,0,0,0,0,A,53,2,01000526,0,0,0,0,A
 01000168=4,53,2,01000341,0,0,0,0,A,53,2,01000343,0,0,0,0,A,53,2,01000345,0,0,0,0,A,53,2,01000347,0,0,0,0,A
 01000171=4,11,4,Welcome.To.Marathon,0,0,0,0,A,53,2,01000173,0,0,0,0,A,11,4,The.First.And.Only,0,0,0,0,A,11,4,Four.Maps.In.One,0,0,0,0,A
 01000173=4,11,4,Map.Made.By.Dctanxman,0,0,0,0,A,11,4,You.Can.Download,0,0,0,0,A,11,4,All.My.Original.Maps,0,0,0,0,A,11,4,On...CnCnet.org/forums,0,0,0,0,A
@@ -10211,7 +10379,7 @@ Strength=10000
 SelfHealing=yes
 
 [CAWASH01]
-Strength=12000
+Strength=10000
 SelfHealing=yes
 LightRedTint=0
 CanBeOccupied=no
@@ -10266,6 +10434,9 @@ Range=10
 Damage=400
 
 [CombatDamage]
+V3EliteWarhead=V3EWH
+DMislEliteWarhead=DMISLEWH
+CMislEliteWarhead=CMISLEWH
 BridgeStrength=2000000
 
 [Confederation]
@@ -11044,8 +11215,8 @@ AnimList=INVISO
 01001068=1,13,0,175
 01001070=1,13,0,175
 01001072=1,42,0,0
-01001074=1,13,0,8
-01001076=1,13,0,9
+01001074=1,13,0,7
+01001076=1,13,0,8
 01001083=2,13,0,60,36,0,0
 01001085=1,13,0,2000
 01001087=2,13,0,5,36,0,1
@@ -11056,7 +11227,7 @@ AnimList=INVISO
 01001097=2,13,0,60,36,0,3
 
 [FA2spVersionControl]
-Version=522
+Version=525
 
 [FLAKT]
 Speed=6
@@ -11121,6 +11292,7 @@ chkBrutalAI=false
 chkMultiEng=false
 chkRedeplMCV=false
 chkShortGame=false
+cmbAIModifier=1
 chkBalancePatch=false
 chkDestrBridges=false
 chkNoDogEngiEat=false
@@ -11129,6 +11301,8 @@ cmbGameSpeedCap=2
 cmbStartingUnits=10
 chkNoYuriNoFrance=false
 chkNoSpawnPreviews=false
+cmbGameSpeedCapMultiplayer=2
+cmbGameSpeedCapSkirmish=2
 
 [French]
 IQ=0
@@ -11199,7 +11373,7 @@ ThreatPosed=0
 GapGenerator=yes
 Prerequisite=GATECH,GACNST
 RadarVisible=no
-Insignificant=yes
+Insignificant=no
 RadarInvisible=yes
 GapRadiusInCells=2
 ImmuneToPsionics=no
@@ -19398,7 +19572,7 @@ TargetDistanceCoefficient=-1
 
 [Map]
 Size=0,0,200,200
-Theater=TEMPERATE
+Theater=Temperate
 LocalSize=2,4,96,95
 
 [Maverick2]
@@ -19839,6 +20013,10 @@ RadarInvisible=yes
 60=01001051
 61=01001052
 62=01001053
+63=01001100
+64=01001101
+65=01001102
+66=01001103
 
 [Special]
 IQ=0
@@ -20367,10 +20545,10 @@ DestroyableBridges=yes
 496=Neutral,NACLON,256,301,187,0,01000344,1,0,1,0,0,None,None,None,0,0
 497=Neutral,NACLON,256,315,200,0,01000346,1,0,1,0,0,None,None,None,0,0
 498=Neutral,ATESLA,256,236,71,0,01000010,1,0,1,0,0,None,None,None,0,0
-503=Neutral,GAGAP2,256,313,287,0,01000628,1,0,1,0,0,None,None,None,0,0
+499=Neutral,GAGAP2,256,313,287,0,01000628,1,0,1,0,0,None,None,None,0,0
+500=Neutral,GAGAP2,256,319,281,0,01000634,1,0,1,0,0,None,None,None,0,0
 504=Neutral,GAGAP2,256,315,285,0,01000630,1,0,1,0,0,None,None,None,0,0
 505=Neutral,GAGAP2,256,317,283,0,01000632,1,0,1,0,0,None,None,None,0,0
-506=Neutral,GAGAP2,256,319,281,0,01000634,1,0,1,0,0,None,None,None,0,0
 507=Neutral,CAFARM02,256,131,303,0,01000500,1,0,1,0,0,None,None,None,0,0
 508=Neutral,CAFARM02,256,203,226,0,01000500,1,0,1,0,0,None,None,None,0,0
 509=Neutral,CAFARM02,256,203,380,0,01000500,1,0,1,0,0,None,None,None,0,0
@@ -21053,6 +21231,10 @@ TargetDistanceCoefficient=-1
 170=01001080
 171=01001081
 172=01001082
+173=01001099
+174=01001104
+175=01001105
+176=01001106
 
 [Terrain]
 29180=TREE06
@@ -22256,4 +22438,4 @@ ImmuneToPsionics=yes
 TargetDistanceCoefficient=-1
 
 [Digest]
-1=lQEjrJv/ZtIpRPyvtpQhZAoV5oQ=
+1=5q2U1LMNqMyvdK99zcE7AekQOxg=
