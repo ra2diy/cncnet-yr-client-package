@@ -3612,7 +3612,7 @@ TargetDistanceCoefficient=-1
 
 [ForcedOptions]
 chkNoSpy=false
-chkCrates=true
+cmbCrateSettings=1
 chkRA2Mode=false
 cmbCredits=0
 chkBrutalAI=false
@@ -3624,7 +3624,8 @@ chkDestrBridges=false
 chkNoDogEngiEat=false
 cmbSuperWeaponsModifier=3
 cmbStartingUnits=0
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 
 [French]

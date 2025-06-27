@@ -1822,7 +1822,7 @@ Cost=700
 
 [ForcedOptions]
 chkNoSpy=false
-chkCrates=true
+cmbCrateSettings=1
 chkRA2Mode=false
 cmbCredits=0
 chkBrutalAI=false
@@ -1836,7 +1836,8 @@ chkNoDogEngiEat=false
 cmbSuperWeaponsModifier=3
 chkIngameAllying=false
 cmbStartingUnits=10
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 
 [French]

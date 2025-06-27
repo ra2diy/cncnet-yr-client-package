@@ -17180,7 +17180,7 @@ Projectile=FlakProj
 
 [ForcedOptions]
 chkNoSpy=false
-chkCrates=true
+cmbCrateSettings=1
 chkRA2Mode=false
 cmbCredits=0
 chkMultiEng=false
@@ -17193,7 +17193,8 @@ chkDestrBridges=false
 chkNoDogEngiEat=false
 cmbGameSpeedCap=2
 cmbStartingUnits=0
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 cmbGameSpeedCapSkirmish=2
 cmbGameSpeedCapMultiplayer=2

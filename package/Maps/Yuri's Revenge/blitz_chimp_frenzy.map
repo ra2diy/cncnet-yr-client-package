@@ -620,7 +620,7 @@ NumberStartingPoints=2
 
 [ForcedOptions]
 chkNoSpy=false
-chkCrates=false
+cmbCrateSettings=0
 chkRA2Mode=false
 cmbCredits=5
 chkBrutalAI=false
@@ -632,7 +632,8 @@ chkDestrBridges=true
 cmbSuperWeaponsModifier=0
 chkIngameAllying=true
 cmbStartingUnits=10
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 
 
