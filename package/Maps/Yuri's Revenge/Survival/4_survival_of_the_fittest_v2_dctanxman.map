@@ -17500,7 +17500,7 @@ Projectile=FlakProj
 
 [ForcedOptions]
 chkNoSpy=false
-cmbCrateSettings=1
+chkCrates=true
 chkRA2Mode=false
 cmbCredits=0
 chkMultiEng=false
