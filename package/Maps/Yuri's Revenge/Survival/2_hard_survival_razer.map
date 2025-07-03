@@ -1345,7 +1345,8 @@ chkBalancePatch=false
 chkDestrBridges=false
 chkNoDogEngiEat=false
 cmbStartingUnits=0
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 
 [French]

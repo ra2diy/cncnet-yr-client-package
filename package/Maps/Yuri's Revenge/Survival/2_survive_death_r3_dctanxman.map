@@ -8620,7 +8620,8 @@ chkBalancePatch=false
 chkDestrBridges=false
 chkNoDogEngiEat=false
 cmbStartingUnits=10
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 
 [French]

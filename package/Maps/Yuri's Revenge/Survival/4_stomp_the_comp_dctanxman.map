@@ -4207,9 +4207,10 @@ chkShortGame=true
 chkBalancePatch=false
 chkDestrBridges=false
 chkNoDogEngiEat=false
-chkSuperWeapons=false
+cmbSuperWeaponsModifier=3
 cmbStartingUnits=0
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 
 [French]

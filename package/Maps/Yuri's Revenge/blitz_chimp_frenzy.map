@@ -629,10 +629,11 @@ chkShortGame=true
 chkBalancePatch=false
 chkBuildOffAlly=true
 chkDestrBridges=true
-chkSuperWeapons=true
+cmbSuperWeaponsModifier=0
 chkIngameAllying=true
 cmbStartingUnits=10
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 
 
