@@ -12,7 +12,6 @@ ${WINE:=wine} reg add HKEY_CURRENT_USER\\Software\\Wine\\AppDefaults\\gamemd-spa
 
 # Set native,builtin for ddraw override option for gamemd-spawn.exe
 ${WINE:=wine} reg add HKEY_CURRENT_USER\\Software\\Wine\\AppDefaults\\gamemd-spawn.exe\\DllOverrides /v ddraw /d native,builtin /f
-F
 
 chmod +x Resources/Compatibility/Unix/*.sh
 
