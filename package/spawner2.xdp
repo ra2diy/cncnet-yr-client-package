@@ -17684,7 +17684,7 @@ Anim=GUNFIRE
 Burst=2
 
 [FlakGuyAAGunE]	; Separate from Flak Cannon weapon so that stats may be tweaked
-Damage=8
+Damage=20 ; changed on jul 2025. previous value of 8 made the elite unit weaker than the non-promoted one
 ROF=25
 Range=8
 Projectile=FlakProj	; AA bullet shared with Flak Cannon
