@@ -4776,7 +4776,7 @@ AffectsAllies=no
 
 [ForcedOptions]
 chkNoSpy=false
-chkCrates=true
+cmbCratesModifier=1
 chkRA2Mode=False
 cmbCredits=0
 chkBrutalAI=True
@@ -4789,7 +4789,8 @@ chkDestrBridges=true
 chkNoDogEngiEat=False
 chkIngameAllying=true
 cmbStartingUnits=10
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 chkDisableSuperWeapons=true
 

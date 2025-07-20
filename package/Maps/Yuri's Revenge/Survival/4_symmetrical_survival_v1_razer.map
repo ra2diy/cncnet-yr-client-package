@@ -1984,7 +1984,7 @@ Range=12
 
 [ForcedOptions]
 chkNoSpy=false
-chkCrates=false
+cmbCratesModifier=0
 chkRA2Mode=False
 cmbCredits=0
 chkMultiEng=false
@@ -1995,7 +1995,8 @@ chkDestrBridges=true
 chkNoDogEngiEat=false
 chkIngameAllying=false
 cmbStartingUnits=0
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 
 [French]

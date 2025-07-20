@@ -11285,7 +11285,7 @@ Anim=INVISO
 
 [ForcedOptions]
 chkNoSpy=false
-chkCrates=true
+cmbCratesModifier=1
 chkRA2Mode=false
 cmbCredits=0
 chkBrutalAI=false
@@ -11296,10 +11296,11 @@ cmbAIModifier=1
 chkBalancePatch=false
 chkDestrBridges=false
 chkNoDogEngiEat=false
-chkSuperWeapons=false
+cmbSuperWeaponsModifier=3
 cmbGameSpeedCap=2
 cmbStartingUnits=10
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 cmbGameSpeedCapMultiplayer=2
 cmbGameSpeedCapSkirmish=2

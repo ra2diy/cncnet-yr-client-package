@@ -13893,7 +13893,7 @@ Anim=INVISO
 
 [ForcedOptions]
 chkNoSpy=false
-chkCrates=true
+cmbCratesModifier=1
 chkRA2Mode=false
 cmbCredits=0
 chkBrutalAI=false
@@ -13904,7 +13904,8 @@ chkBalancePatch=false
 chkDestrBridges=false
 chkNoDogEngiEat=false
 cmbStartingUnits=0
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 
 [French]

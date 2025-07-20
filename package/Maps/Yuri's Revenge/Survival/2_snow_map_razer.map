@@ -1265,7 +1265,7 @@ Projectile=FlakProj
 
 [ForcedOptions]
 chkNoSpy=false
-chkCrates=True
+cmbCratesModifier=1
 chkRA2Mode=False
 cmbCredits=0
 chkBrutalAI=True
@@ -1278,7 +1278,8 @@ chkDestrBridges=false
 chkNoDogEngiEat=false
 chkIngameAllying=true
 cmbStartingUnits=0
-chkNoYuriNoFrance=false
+chkNoYuri=false
+chkNoFrance=false
 chkNoSpawnPreviews=false
 
 [French]
