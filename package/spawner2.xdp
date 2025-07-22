@@ -8681,7 +8681,6 @@ RefinerySmokeOffsetOne=-92, -172, 312
 RefinerySmokeOffsetTwo=-92, 164, 312
 RefinerySmokeFrames=50
 RefinerySmokeParticleSystem=SmallGreySSys
-ResourceDestination=yes
 
 ; Ore Refinery
 [NAREFN]
@@ -8728,7 +8727,6 @@ RefinerySmokeOffsetOne=-80, -226, 380
 RefinerySmokeOffsetTwo=-80, 204, 380
 RefinerySmokeFrames=50
 RefinerySmokeParticleSystem=SmallGreySSys
-ResourceDestination=yes
 
 ;Allied Ore Purifier
 [GAOREP]
