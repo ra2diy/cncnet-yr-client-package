@@ -43,6 +43,7 @@ Please look at `[razer_survival_options]` within `MPMaps.ini` if you want forced
   - Enables or disables dogs eating engineers.
 - **Stolen Tech**: Enabled (`chkNoStolenTech=false`)
   - Allows or disallows spies entering Battle Labs to unlock special units (Chrono Commando, Ivan, Psi-Troop).
+  - Battle labs are now immune to spys. As a fail safe, unlocked units now have TechLevel=-1 and BuildLimit=0.
 
 ### Game Speed
 - **Skirmish Game Speed**: 30 FPS (`cmbGameSpeedCapSkirmish=2`)
