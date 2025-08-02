@@ -23,6 +23,7 @@
     "@actions/core": "^1.10.0",
     "@actions/github": "^5.1.1",
     "@octokit/core": "^4.2.0",
+    "@types/fs-extra": "^11.0.4",
     "@types/node": "^18.14.0",
     "commander": "^10.0.0",
     "fast-folder-size": "^2.2.0",

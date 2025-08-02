@@ -20,7 +20,7 @@ export default class ExBuffer {
 
     constructor(size: number) {
         this.offset = 0;
-        this.buffer = Buffer.allocUnsafe(size);
+        this.buffer = Buffer.allocUnsafe(size * 2);
     }
 
     GetBuffer(): Buffer {
@@ -35,7 +35,7 @@ export default class ExBuffer {
         return result;
     }
 
-    copy(source) {
+    copy(source: Buffer) {
         const result = this.offset;
         source.copy(this.buffer, result);
         this.offset += source.length;
@@ -44,7 +44,7 @@ export default class ExBuffer {
         return result;
     }
 
-    write(value) {
+    write(value: number) {
         this.buffer.writeUInt32LE(value, this.offset);
         this.offset += 4;
     }

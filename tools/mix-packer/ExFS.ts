@@ -1,14 +1,16 @@
 import * as fs from "fs-extra";
 import * as path from "path";
 import * as glob from "glob";
-const fastFolderSizeSync = require("fast-folder-size/sync") as (target: string) => number;
+const fastFolderSizeSync = require("fast-folder-size/sync") as (
+    target: string
+) => number;
 
-function toPosixPath(pathStr) {
+function toPosixPath(pathStr: string) {
     return pathStr.replace(/\\/g, "/");
 }
 
 export default class ExFS {
-    static deleteAllMix(folderPath) {
+    static deleteAllMix(folderPath: string) {
         const globOptions = {
             nodir: true,
             absolute: true,
@@ -23,7 +25,7 @@ export default class ExFS {
         });
     }
 
-    static GetFileArray(folderPath) {
+    static GetFileArray(folderPath: string) {
         const globOptions = {
             nodir: true,
             absolute: true,
@@ -39,7 +41,7 @@ export default class ExFS {
         return glob.sync(globPattern, globOptions).sort();
     }
 
-    static GetPackArray(folderPath) {
+    static GetPackArray(folderPath: string) {
         const globPattern = toPosixPath(path.join(folderPath, "**", "*.pack"));
 
         let result = glob.sync(globPattern);
@@ -53,11 +55,11 @@ export default class ExFS {
         return fastFolderSizeSync(folderPath) || 0;
     }
 
-    static GetFile(filePath) {
+    static GetFile(filePath: string) {
         return fs.readFileSync(filePath);
     }
 
-    static mkdir(filePath) {
+    static mkdir(filePath: string) {
         fs.ensureDirSync(filePath);
     }
 }
