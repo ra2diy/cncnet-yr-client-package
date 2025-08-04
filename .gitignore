@@ -23,3 +23,5 @@ version_u
 /package.tar.gz
 /Client/
 /package/QM
+package/Resources/Translations/.DS_Store
+.gitignore
