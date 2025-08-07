@@ -22,6 +22,3 @@ version_u
 /CnCNet5_YR_Installer.exe
 /package.tar.gz
 /Client/
-/package/QM
-package/Resources/Translations/.DS_Store
-.gitignore
