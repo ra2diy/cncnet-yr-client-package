@@ -551,6 +551,9 @@ Maps\Custom\[8] The Oil With Bonus [SS] RTS_03b65e1fe6847c513f3e463f4f4b1d346e33
 Maps\Custom\[8] The Oil With Bonus SS [X4] [TEAM]_6e13db2484ffabdc3811d8a9ca8f272942514986.map
 Maps\Custom\[8]Oil with Bonus Remastered by VK Subscribe me on Youtube @privacyVK_3f069fa5bc7366678ce7cd4059740f1252627022.map
 Maps\Custom\737934c19ccc138da093d6cace92d666581e6a45.map
+INI\Game Options\Crates\Disabled.ini
+INI\Game Options\Crates\Super Increased.ini
+Resources\GenericWindowLegacy.ini
 
 [DeleteFolder]
 Maps\Yuri's Revenge\CTF
