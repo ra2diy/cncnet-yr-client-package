@@ -3133,7 +3133,6 @@ Armor=light
 Owner=YuriCountry
 Sight=8
 Speed=8
-Gunner=yes
 Points=60
 Turret=yes
 UIName=Show Down Trolley

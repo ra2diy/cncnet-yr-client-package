@@ -8671,7 +8671,6 @@ Image=FV
 Owner=British,French,Germans,Americans,Alliance
 Sight=8
 Speed=8
-Gunner=yes
 Points=60
 Turret=yes
 UIName=Name:FV
