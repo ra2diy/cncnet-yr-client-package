@@ -1,4 +1,5 @@
 [Delete]
+Client\custom_map_cache
 Resources\Allied Theme\CnCNetLobby.ini
 Resources\Allied Theme\GenericWindow.ini
 Resources\Allied Theme\LANLobby.ini
@@ -6,16 +7,27 @@ Resources\Allied Theme\LoadingScreen.ini
 Resources\Allied Theme\MultiplayerGameLobby.ini
 Resources\Allied Theme\OptionsWindow.ini
 Resources\Allied Theme\SkirmishLobby.ini
+Resources\Binaries\OpenGL\Rampastring.Tools.dll
+Resources\Binaries\Windows\Rampastring.Tools.dll
+Resources\Binaries\XNA\Rampastring.Tools.dll
+Resources\ClassicMode.mix
 Resources\Soviet Theme\CnCNetLobby.ini
+Resources\Soviet Theme\GenericWindow.ini
 Resources\Soviet Theme\LANLobby.ini
 Resources\Soviet Theme\LoadingScreen.ini
 Resources\Soviet Theme\MultiplayerGameLobby.ini
 Resources\Soviet Theme\OptionsWindow.ini
 Resources\Soviet Theme\SkirmishLobby.ini
-Crate.sno
-crate.sno
+expandspawn01.mix
+expandspawn02.mix
+expandspawn09.mix
+ls800obs.shp
+mplsobs.pal
+spawner.xdp
+spawner2.xdp
 crate.des
 crate.lun
+crate.sno
 crate.tem
 crate.ubn
 crate.urb
