@@ -78,6 +78,7 @@ Filename: "{app}\CnCNetYRLauncher.exe"; WorkingDir: "{app}"; Description: "{cm:L
 [INI]
 Filename: "{app}\RA2MD.ini"; Section: "Video"; Key: "UseGraphicsPatch"; String: "Yes"; MinVersion: 6.2
 Filename: "{app}\RA2MD.ini"; Section: "Options"; Key: "Win8Compat"; String: "Yes"; MinVersion: 6.2
+Filename: "{app}\RA2MD.ini"; Section: "MultiPlayer"; Key: "NotifyOnUserListChange"; String: "False"
 
 Filename: "{app}\RA2MD.INI"; Section: "Video"; Key: "AllowHiResModes"; String: "Yes"
 Filename: "{app}\RA2MD.INI"; Section: "Video"; Key: "ScreenWidth"; String: "800"; Flags: createkeyifdoesntexist
@@ -103,6 +104,8 @@ Type: filesandordirs; Name: "{app}\Resources"
 Type: filesandordirs; Name: "{app}\Client"
 
 [Registry]
+Root: HKLM; Subkey: SYSTEM\CurrentControlSet\Control\FileSystem; ValueType: dword; ValueName: LongPathsEnabled; ValueData: 1; Flags: noerror; MinVersion: 10.0.14393
+
 Root: HKLM; Subkey: Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers; ValueType: String; ValueName: {app}\gamemd-spawn.exe; ValueData: "HIGHDPIAWARE"
 Root: HKCU; Subkey: Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers; ValueType: String; ValueName: {app}\gamemd-spawn.exe; ValueData: "HIGHDPIAWARE"
 
